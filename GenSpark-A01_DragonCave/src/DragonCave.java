@@ -11,6 +11,7 @@ import java.util.Scanner;
  *                 the user that an invalid selection was made. Program exits upon execution of any
  *                 choice made.
  *          Programmer: Patrick Kingori, 08/18/2021
+ *          Github: https://github.com/pkingori/Java-GenSpark-Projects/blob/main/GenSpark-A01_DragonCave/src/DragonCave.java
  *************************************************************************************************/
 
 
