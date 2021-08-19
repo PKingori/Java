@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-/****************************************************************************************************
+/************************************************************************************************************
  *          Project: GenSpark- Java Bootcamp Training Program
  *          Project #: A01_DragonCave
  *          Abstract: A simple introductory Java class to demonstrate the use of predicate logic on strings
@@ -10,9 +10,9 @@ import java.util.Scanner;
  *                 0, the programs exits. Also, if users enters anything else, the program alerts
  *                 the user that an invalid selection was made. Program exits upon execution of any
  *                 choice made.
- *          Programmer: Patrick Kingori, 08/18/2021
+ *          Programmer: Patrick Kingori, 08/18/2021.
  *          Github: https://github.com/pkingori/Java-GenSpark-Projects/blob/main/GenSpark-A01_DragonCave/src/DragonCave.java
- *************************************************************************************************/
+ ****************************************************************************************************************/
 
 
 public class DragonCave {
