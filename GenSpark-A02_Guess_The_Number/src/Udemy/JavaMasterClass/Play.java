@@ -12,7 +12,7 @@
  *                     If the user exhausts the 6 trials, the program also reveals to the user the correct number.
  *
  *          Programmer: Patrick Kingori
- *          Github: 
+ *          Github: https://github.com/pkingori/Java-GenSpark-Projects/blob/main/GenSpark-A02_Guess_The_Number/src/Udemy/JavaMasterClass/Play.java
  ****************************************************************************************************************/
 
 
