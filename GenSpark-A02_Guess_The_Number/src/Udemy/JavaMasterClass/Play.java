@@ -14,48 +14,43 @@
  *          Programmer: Patrick Kingori
  *          Github: https://github.com/pkingori/Java-GenSpark-Projects/blob/main/GenSpark-A02_Guess_The_Number/src/Udemy/JavaMasterClass/Play.java
  ****************************************************************************************************************/
-
-
 package Udemy.JavaMasterClass;
-
 import java.util.Scanner;
 
 // Create the Play loop which controls the iteration of the game when user is prompted to play again
 public class Play {
-
-
     public static void main(String[] args) {
-// Listing to the user's name
+
+        // Listening to the user's name
         System.out.println("\n************************** Welcome to Compuguess **********************\n");
         System.out.println("Please enter your name:");
         Scanner getName = new Scanner(System.in);           //set listener
         String userName = getName.nextLine();               // Create and store username
 
-// Let's use the user's input of their name as their consent to play and thus begin the do-while loop to play
-        String playAgain = "Y";                                                    // we set the playAgain string to "Y"
 
-        do {
+        // Let's use the user's input of their name as their consent to play and thus begin the do-while loop to play
+        String playAgain = "Y";                             // we set the playAgain string to "Y"
+
+        do {                                                // This is the do that actually iterates the game
 
 
         System.out.println("Welcome, " + userName + "!\n");
-
-
         System.out.println("Here are some instructions:\n" +
                 "I'll think of a number between 1 and 20. You will try to guess it.\n" +
                 "You only have 6 attempts to guess it right. Good luck!\n");
-// Generating the number between 1 and 20
+        // Generating the number between 1 and 20
         // Declare the MinMax
         int Min = 1;        // Declare the minimum value of 1
         int Max = 20;       // Declare the maximum value of 20
         int thoughtNum = (int) (Math.random()*(Max-Min+1)+Min);     // The randomizer
-//        System.out.println(thoughtNum);                           // tester
+        //        System.out.println(thoughtNum);                  // tester (programmer's switch button)
 
-// Beginning for loop to count the number of guess attempts
+        // Beginning the for loop to count the number of guess attempts
     for(int guessAttempt = 1; guessAttempt <= 6; guessAttempt++){
         System.out.println("\nAttempt No.: "+guessAttempt+". Please guess a number between "+Min+
                 " and "+ Max + ". Number of trials left = " + (6-guessAttempt));
 
-        // Listen to the user's choice
+        // Listening to the user's choice
         Scanner in = new Scanner(System.in);        // Set listener
         int guessedNum = in.nextInt();              // Listen to the choice and store it
 
@@ -82,11 +77,8 @@ public class Play {
 
         }
 
-
-
         // Prompt users to select Y if they want to play again or N if not. This is exclusive
         System.out.println(" \nDo you want to play again? [Please select Y or N]");
-
 
         // Listen for user selection to play again
         Scanner getPlayResponse = new Scanner(System.in);           // set listener
@@ -97,16 +89,7 @@ public class Play {
         // end game if Y is not entered
         System.out.println("****************** GAME OVER ! *****************");
 
-
-
-
-
-
-
-
     }       // end of main
-
-
 }       // end of class Play
 
 
