@@ -4,9 +4,15 @@
  *          Abstract: A simple introductory Java class to demonstrate the use of loop, conditional and predicate logic
  *          Task: A simple game asking the user to guess a number between 1 and 20 that the computer "thought" of.
  *              The user is allowed only 6 attempts. The user is asked whether to play again at the end.
- *          Behaviour:
+ *          Behaviour: The program asks the user's name at first and recalls it upon subsequent replays of the game.
+ *                     It accepts the user's guesses and counts down the remaining trials. It messages the user whether
+ *                     their guess was more or less than the random number it created (that falls between 1 and 20).
+ *                     If the user guesses correctly or if they have exhausted the 6 trials without getting the answer,
+ *                     it prompts the user to play again and replays a new game if and only if 'Y' or 'y' are pressed.
+ *                     If the user exhausts the 6 trials, the program also reveals to the user the correct number.
+ *
  *          Programmer: Patrick Kingori
- *          Github:
+ *          Github: 
  ****************************************************************************************************************/
 
 
