@@ -1,15 +1,16 @@
-/************************************************************************************************************
+/*******************************************************************************************************************
  *          Project: GenSpark- Java Bootcamp Training Program
  *          Project #: A03_Hangman (Capital Punishment)
  *          Abstract: A simple hangman game that challenges the user to guess a country that continues to execute or hang
  *                    criminals or practise capital punishment.
- *          Task: T
+ *          Task: To create a Java Program that gives a user 6 trials to guess a letter from a randomly selected word
+ *                and "executes"  them as hangman for missing all 6 trials.
  *          Behaviour: The program prompts the user to guess a country that still practises capital punishment today
  *                     Upon successful trials, the programs iterates to prompt them to enter additional spellings
  *                     The user is alerted whenever there are repeated letters entered.
  *
  *          Programmer: Patrick Kingori
- *          Github: https://github.com/pkingori/Java-GenSpark-Projects/blob/main/GenSpark-A02_Guess_The_Number/src/Udemy/JavaMasterClass/Play.java
+ *          Github: https://github.com/pkingori/Java-GenSpark/blob/main/GenSpark-A03-Hangman/src/hangman.java
  ****************************************************************************************************************/
 import java.util.Scanner;
 
