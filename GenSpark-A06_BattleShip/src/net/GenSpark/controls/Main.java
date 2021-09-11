@@ -16,7 +16,7 @@ package net.GenSpark.controls;
 // **************************** MAIN SWITCH *****************************
 public class Main {
     public static void main(String[] args) {
-        Ignition battle = new Ignition();
+        var battle = new Ignition();
         battle.start();
         }
     /* ******************************************************************* */
