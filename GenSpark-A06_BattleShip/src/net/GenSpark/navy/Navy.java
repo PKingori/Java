@@ -30,7 +30,7 @@ public class Navy implements INavyStamp {
 
     @Override
     public void placeShips() {
-        System.out.printf("%n********** B  A  T  T  L  E     S  H  I  P    B  E  G  I  N  S  ******************%n");
+        System.out.printf("%n********** B  A  T  T  L  E  S  H  I  P      B  E  G  I  N  S  ******************%n");
         System.out.printf("%n======== TRANSMISSION RECEIVED FROM COMMANDER IN CHIEF: BATTLE SHIP GO TO WAR!  ========%n", id);
         sea.placeShipsOnBoard();
     }
