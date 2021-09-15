@@ -1,13 +1,14 @@
 /************************************************************************************************************
  *          Project: GenSpark- Java Bootcamp Training Program
- *          Project #: A09_Hangman_II
+ *          Project #: A09_Hangman_II_ENHANCED
  *          Abstract: A Java program that demonstrates familiarity with the use of functional programming and
- *                    handling of IO files. The program also demonstrates application of JavaFX. Th
+ *                    handling of IO files. The program also demonstrates application of JavaFX.
  *          Task: To develop a Hangman game that employs functional programming features to replace for loops
- *          Behaviour: The program ....
+ *          Behaviour: The program displays a PNG file for each stage og the hangman execution. It also tallies
+ *                   and stores the records of the scores of the player as a CSV file.
  *          Programmer: Patrick Kingori.
- *          Github: https://github.com/pkingori/Java-GenSpark-Projects/blob/main/GenSpark-A01_DragonCave/src/DragonCave.java
  ****************************************************************************************************************/
+
 import java.util.stream.Collectors;
 import java.util.*;
 import javax.swing.*;
@@ -25,7 +26,7 @@ public class HangmanII_Enhanced {
     public static CorrectGuessesMade correctCountryGuesses = new CorrectGuessesMade(country);
     public static String drawErrorLine = new String(new char[country.length()]).replace("\0", "-");
     public static int counter = 0;
-    public static String newUnderline = "";
+//    public static String newUnderline = "";
     public static char letterChoiceMade;
     public static String missedCountryLetter = "";
     public static String guessLetter;
@@ -33,7 +34,7 @@ public class HangmanII_Enhanced {
     public static int countCorrect;
     public static int echoCount;
     public static int tallyLiner;
-    public static int getCountCorrect = 0;
+//    public static int getCountCorrect = 0;
     public static String registeredPlayer;
 
 
@@ -263,8 +264,6 @@ public class HangmanII_Enhanced {
         } else { }
 
     }
-
-
 
 
 

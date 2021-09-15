@@ -100,7 +100,6 @@ public class TallyScore {
                     winnerVal = (int)winningChance;
 
 
-
                     System.out.println("You have won total of " + totalScore + " times in " + gameNumber + " games!");
 
                     System.out.println("===> Your winning percentage is " + winnerVal + "%.\n");
