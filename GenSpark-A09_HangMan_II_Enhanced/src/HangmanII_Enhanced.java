@@ -268,7 +268,7 @@ public class HangmanII_Enhanced {
 
 
 
-    public static <StackPane, Scene> void hangmanImage() {
+    public static <PicturePanel, HangView> void hangmanImage() {
         if (counter == 0) {
 
 
