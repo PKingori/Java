@@ -5,5 +5,5 @@
 <h3><a href="https://github.com/pkingori/Java-GenSpark/blob/main/GenSpark_A04-Game_X-O/src/PlayXO.java"><p> &#10062; A04 Tic-Tac-Toe:</a></h3> A demostration of capabilities to use multidimensional arrays in writing a simple Knots & Crosses game.</br>	
 <h3><a href="https://github.com/pkingori/Java-GenSpark/blob/main/GenSpark-A05_Humans_vs_Goblins/src/HumaGoblins.java"><p> &#x1f47a; A05 Humans vs Goblins:</a></h3> Demonstrates familiarity with the fundamental pillars of OOP: encapulation, inheritance, polymorphism, and abstraction.</br>
 <h3><a href="https://github.com/pkingori/Java-GenSpark/blob/main/GenSpark-A09_HangMan_II_Enhanced/src/HangmanII_Enhanced.java"><p> &#9996; A09 Hangman II Enhanced:</a></h3> A Java program that demonstrates familiarity with the use of functional programming, JavaFX and handling of IO files.</br>
-<h2> Java Project:... coming soon </h2>&#128425; Calculator</a></h3> A Java project that demonstrates familiarity with SDLC.</br>
+<h2> Java Project:... coming soon </h2><p>&#128425; Calculator</a></h3> A Java project that demonstrates familiarity with SDLC.</br>
 <h1> Spring-Boot Skills:... coming soon </h1>
