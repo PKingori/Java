@@ -177,7 +177,7 @@ public class HangmanII_Enhanced {
         }
 
         if (drawErrorLine.equals(country)) {
-            System.out.println("You got it! The country is " + "\"" + country + "\"" + "! Congratulations!");
+            printEchoMessage("You got it! The country is ", "\"", country, "\"", "! Congratulations!");
 
 
             int score = 1;
@@ -268,7 +268,7 @@ public class HangmanII_Enhanced {
 
 
 
-    public static <PicturePanel, HangView> void hangmanImage() {
+    public static <PicturePanel> void hangmanImage() {
         if (counter == 0) {
 
 
@@ -285,14 +285,14 @@ public class HangmanII_Enhanced {
             hangmanStage(fileName);
 
 
-            System.out.println("Missed letters" + ": " + missedCountryLetter + "\n" + echoMessage);
+            printEchoMessage("Missed letters", ": ", missedCountryLetter, "\n", echoMessage);
         }
         if (counter == 2) {
 
             String fileName = "hangmanPictures/hang2.PNG";
             hangmanStage(fileName);
 
-            System.out.println("Missed letters" + ": " + missedCountryLetter + "\n" + echoMessage);
+            printEchoMessage("Missed letters", ": ", missedCountryLetter, "\n", echoMessage);
 
         }
         if (counter == 3) {
@@ -300,39 +300,35 @@ public class HangmanII_Enhanced {
             String fileName = "hangmanPictures/hang3.PNG";
             hangmanStage(fileName);
 
-            System.out.println("Missed letters" + ": " + missedCountryLetter + "\n" + echoMessage);
+            printEchoMessage("Missed letters", ": ", missedCountryLetter, "\n", echoMessage);
 
         }
         if (counter == 4) {
 
             String fileName = "hangmanPictures/hang4.PNG";
             hangmanStage(fileName);
-
-            System.out.println("Missed letters" + ": " + missedCountryLetter + "\n" + echoMessage);
+            printEchoMessage("Missed letters", ": ", missedCountryLetter, "\n", echoMessage);
 
         }
         if (counter == 5) {
 
             String fileName = "hangmanPictures/hang5.PNG";
             hangmanStage(fileName);
-
-            System.out.println("Missed letters" + ": " + missedCountryLetter + "\n" + echoMessage);
+            printEchoMessage("Missed letters", ": ", missedCountryLetter, "\n", echoMessage);
 
         }
         if (counter == 6) {
 
             String fileName = "hangmanPictures/hang6.PNG";
             hangmanStage(fileName);
-
-            System.out.println("Missed letters" + ": " + missedCountryLetter + "\n" + echoMessage);
+            printEchoMessage("Missed letters", ": ", missedCountryLetter, "\n", echoMessage);
 
         }
         if (counter == 7) {
 
             String fileName = "hangmanPictures/hang7.PNG";
             hangmanStage(fileName);
-
-            System.out.println("Game Over! The country was " + "\"" + country + "\"" + "!");
+            printEchoMessage("Game Over! The country was ", "\"", country, "\"", "!");
 
             int score = 0;
 
@@ -348,6 +344,10 @@ public class HangmanII_Enhanced {
             }
 
         }
+    }
+
+    private static void printEchoMessage(String s, String s2, String missedCountryLetter, String s3, String echoMessage) {
+        System.out.println(s + s2 + missedCountryLetter + s3 + echoMessage);
     }
 
     private static void hangmanStage(String fileName) {
