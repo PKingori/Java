@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Text?>
+
+<VBox alignment="CENTER" stylesheets="@styles.css" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/16" fx:controller="com.example.calculator.Controller">
+
+    <StackPane>
+        <Rectangle fill="TRANSPARENT" height="50" width="240" />
+        <Text fx:id="output" />
+    </StackPane>
+
+    <HBox alignment="CENTER">
+        <Button prefHeight="50" prefWidth="120" text="AC" styleClass="top-button" onAction="#handleOperatorBtn"/>
+        <Button prefHeight="50" prefWidth="60" text="\%" styleClass="top-button" onAction="#handleOperatorBtn"/>
+        <Button prefHeight="50" prefWidth="60" text="÷" styleClass="right-button" onAction="#handleOperatorBtn"/>
+
+    </HBox>
+
+    <HBox alignment="CENTER">
+        <Button prefHeight="50" prefWidth="60" text="7" onAction="#handleNumberBtn" />
+        <Button prefHeight="50" prefWidth="60" text="8" onAction="#handleNumberBtn" />
+        <Button prefHeight="50" prefWidth="60" text="9" onAction="#handleNumberBtn" />
+        <Button prefHeight="50" prefWidth="60" text="x"  styleClass="right-button" onAction="#handleOperatorBtn"/>
+    </HBox>
+
+    <HBox alignment="CENTER">
+        <Button prefHeight="50" prefWidth="60" text="4" onAction="#handleNumberBtn" />
+        <Button prefHeight="50" prefWidth="60" text="5" onAction="#handleNumberBtn" />
+        <Button prefHeight="50" prefWidth="60" text="6" onAction="#handleNumberBtn" />
+        <Button prefHeight="50" prefWidth="60" text="-"  styleClass="right-button" onAction="#handleOperatorBtn"/>
+    </HBox>
+
+    <HBox alignment="CENTER">
+        <Button prefHeight="50" prefWidth="60" text="1" onAction="#handleNumberBtn" />
+        <Button prefHeight="50" prefWidth="60" text="2" onAction="#handleNumberBtn" />
+        <Button prefHeight="50" prefWidth="60" text="3" onAction="#handleNumberBtn" />
+        <Button prefHeight="50" prefWidth="60" text="+"  styleClass="right-button" onAction="#handleOperatorBtn"/>
+    </HBox>
+
+    <HBox alignment="CENTER">
+        <Button prefHeight="50" prefWidth="120" text="0" onAction="#handleNumberBtn" />
+        <Button prefHeight="50" prefWidth="60" text="." onAction="#handleNumberBtn" />
+        <Button prefHeight="50" prefWidth="60" text="="  styleClass="right-button" onAction="#handleOperatorBtn"/>
+    </HBox>
+
+</VBox>
